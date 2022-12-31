@@ -20,7 +20,7 @@ int main() {
         for(;lower <= upper;lower += 2) {
             ansCelsius = 5 * ((lower - 32) / 9);
 
-            printf("%-5.0lf%6.1lf\n", lower, ansCelsius);
+            printf("%-5.0lf%-6.1lf\n", lower, ansCelsius);
         }
     }
 }
