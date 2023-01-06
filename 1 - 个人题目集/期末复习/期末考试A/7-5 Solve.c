@@ -30,7 +30,6 @@ int main() {
         for(int i = 1; i < size; i++) {
             // 内层的 for 控制检测的位置
             for(int l = 0; l < i; l++) {
-                printf("Scaning [%d][%d], Value: %d", i, l, a[i][l])
                 if(a[i][l] != 0) {flag = 1; break;}
             }
 
